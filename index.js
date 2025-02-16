@@ -20,7 +20,7 @@ const CLUSTER_ID = "jbgqy";
 const DB_CONNECTION = `mongodb+srv://${DB_USER_NAME}:${DB_PASSWORD}@clusterone.${CLUSTER_ID}.mongodb.net/${DB_NAME}?retryWrites=true&w=majority&appName=ClusterOne`;
 const mongodb_atlas_url = process.env.MONGODB_URL || DB_CONNECTION;
 
-//TODO - Replace you Connection String here
+//TODO  - Replace you Connection String here
 const connectDB = async() => {
     try{
       mongoose.connect(mongodb_atlas_url, {

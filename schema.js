@@ -52,7 +52,7 @@ module.exports = schema
 //         sayHello(name: String!): String
 //         getStudent: Student
 //         getStudents: [Student]
-//     }
+//    }
 
 //     type Mutation{
 //         addStudent(sid: Int!, firstname: String!, lastname: String!, city: String!, salary:Float!):Student
